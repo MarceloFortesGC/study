@@ -1,0 +1,43 @@
+Questão 1
+Faça um algoritmo que leia três notas de um aluno, calcule e escreva a média
+final deste aluno. Considerar que a média é ponderada e que o peso das notas
+é 2, 3 e 5.
+
+Questão 2
+Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma
+mensagem que diga se ela poderá ou não votar este ano (não é necessário
+considerar o mês em que a pessoa nasceu)
+
+Questão 3
+Ler dois valores (considere que não serão lidos valores iguais) e escrever o
+maior deles.
+
+Questão 4
+Ler dois valores (considere que não serão lidos valores iguais) e escrevê los
+em ordem crescente
+
+Questão 5
+As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$
+1,00 se forem compradas pelo menos 12. Escreva um programa que leia o
+número de maçãs compradas, calcule e escreva o custo total da compra.
+
+Questão 6
+Ler 3 valores (considere que não serão informados valores iguais) e escrever o
+maior deles.
+
+Questão 7
+Ler dois valores e imprimir uma das três mensagens a seguir: ‘Números
+iguais’, caso os números sejam iguais ‘Primeiro é maior’, caso o primeiro seja
+maior que o segundo; ‘Segundo maior’, caso o segundo seja maior que o
+primeiro.
+
+Questão 8
+Escreva um programa que leia as medidas dos lados de um triângulo e escreva
+se ele é Equilátero, Isósceles ou Escaleno. Sendo que: - Triângulo Equilátero:
+possui os 3 lados iguais. - Triângulo Isóscele: possui 2 lados iguais. - Triângulo
+Escaleno: possui 3 lados diferentes.
+
+Questão 9
+Ler 3 valores (A, B e C) representando as medidas dos lados de um
+triângulo e escrever se formam ou não um triângulo. OBS: para formar um
+triângulo, o valor de cada lado deve ser menor que a soma dos outros 2 lados.

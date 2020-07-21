@@ -1,0 +1,207 @@
+Exercícios
+
+EXERCÍCIO 1
+int main () {
+	float n1;
+	float n2;
+	float n3;
+	float media;
+	
+	printf("Entre com a nota 1: \n");
+	scanf("%f", &n1);
+	printf("Entre com a nota 2: \n");
+	scanf("%f", &n2);
+	printf("Entre com a nota 3: \n");
+	scanf("%f", &n3);
+	
+	media = n1*0.2 + n2*0.3 + n3*0.5;
+	printf ("A media do aluno e: %.2f \n", media);
+	printf ("Nota 1 peso 2: %.2f \n", n1);
+	printf ("Nota 2 peso 3: %.2f \n", n2);
+	printf ("Nota 3 peso 5: %.2f \n", n3);
+	
+return 0;
+}
+
+EXERCÍCIO 2
+int main () {
+	int ano1;
+	int ano2;
+	int idade;
+	
+	printf ("Digite o ano que voce nasceu: \n");
+	scanf ("%i", &ano1);
+	printf ("Digite o ano atual: \n");
+	scanf ("%i", &ano2);
+	
+	idade = ano2-ano1;
+	printf("Idade: %d \n", idade);
+	
+	if (idade<18) {
+		printf ("Nao pode votar \n");
+	} else {
+		printf ("Pode votar!");
+	}
+	
+	
+	return 0;
+}
+
+EXERCÍCIO 3
+int main () {
+	float n1;
+	float n2;
+	
+	printf ("Digite o valor 1 \n");
+	scanf ("%f", &n1);
+	printf ("Digite o valor 2 \n");
+	scanf ("%f", &n2);
+	
+	if (n1>n2){
+		printf("Valor 1 maior que valor 2: %.2f > %f \n", n1, n2);
+	}else if (n2>n1){
+		printf("Valor 2 maior que valor 1: %.2f > %f \n", n2, n1);
+	}else{
+		printf ("Valores iguais! \n");
+	}
+return 0;
+}
+
+EXERCÍCIO 4
+int main () {
+	int n1;
+	int n2;
+	
+	printf ("Escreva o primeiro numero: \n");
+	scanf ("%i", &n1);
+	printf ("Escreva o segundo numero: \n");
+	scanf ("%i", &n2);
+	
+	printf ("Ordem Crescente: \n");
+	
+	if (n1>n2){
+		printf ("%i		%i", n1, n2);
+	}else if (n2>n1){
+		printf ("%i		%i", n2, n1);
+	}else{
+		printf ("Valores Iguais!");
+	}
+
+
+return 0;
+}
+
+EXERCÍCIO 5
+int main () {
+	float quant;
+	
+	printf ("Digite quantas macas voce comprou: \n");
+	scanf ("%f", &quant);
+	
+	if(quant<12){
+		quant = quant*1.3;
+		printf("Preco: R$ %.2f",quant);
+	}else{
+		quant = quant*1;
+		printf("Preco: R$ %.2f",quant);
+	}
+
+return 0;
+}
+
+
+EXERCÍCIO 6
+int main () {
+	float n1;
+	float n2;
+	float n3;
+	
+	printf ("Digite numeros 1: \n");
+	scanf ("%f", &n1);
+	printf ("Digite numero 2: \n");
+	scanf ("%f", &n2);
+	printf ("Digite numero 3: \n");
+	scanf ("%f", &n3);
+	
+	if (n1>n2 && n1>n3) {
+		printf("O maior número é: %.2f", n1);
+	}else if (n2>n1 && n2>n3){
+		printf("O maior numero e: %.2f", n2);
+	}else{
+		printf("O maior número é: %.2f", n3);
+	}
+	
+return 0;
+}
+
+EXERCÍCIO 7
+int main () {
+	float n1;
+	float n2;
+	float n3;
+	
+	printf("Escreva o valor n1: ");
+	scanf("%f", &n1);
+	printf("Escreva o valor n2: ");
+	scanf("%f", &n2);
+	
+	if(n1>n2){
+		printf("Primeiro maior");
+	}else if(n2>1){
+		printf("Segundo maior");
+	}else{
+		printf("Numeros Iguais");
+	}
+
+return 0;
+}
+
+EXERCÍCIO 8
+int main () {
+	
+	setlocale(LC_ALL, "Portuguese");
+	
+	float lado1;
+	float lado2;
+	float lado3;
+	
+	printf("Digite a primeira medida do triângulo: ");
+	scanf("%f", &lado1);
+	printf("Digite a segunda medida do triângulo: ");
+	scanf("%f", &lado2);
+	printf("Digite a terceira medida do triângulo: ");
+	scanf("%f", &lado3);
+	
+	if (lado1 == lado2 && lado1 == lado2 && lado1==lado3){
+		printf("Triangulo Equilatero");
+	}else if (lado1 == lado2 || lado1 == lado3 || lado3==lado2){
+		printf("Triangulo Isoscele");
+	}else{
+		printf("Triangulo Escaleno");
+	}
+
+return 0;
+}
+
+
+EXERCÍCIO 9
+int main () {
+
+	setlocale(LC_ALL, "Portuguese");
+	
+	float a,b,c;
+	bool i;
+	
+	printf("Escreva o valor de A: ");
+	scanf("%f", &a);
+	printf("Escreva o valor de B: ");
+	scanf("%f", &b);
+	printf("Escreva o valor de C: ");
+	scanf("%f", &c);
+	
+	i = (a<b+c && b<a+c && c<a+b);  
+	
+	printf("%s", (i == 1 ? "É um triângulo" : "Não é um triângulo"));
+
+return 0;
+}
